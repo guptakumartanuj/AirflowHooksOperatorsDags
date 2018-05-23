@@ -1,0 +1,7 @@
+export AIRFLOW__CORE__AIRFLOW_HOME="/Users/tangupta/airflow"
+export AIRFLOW_HOME="${AIRFLOW__CORE__AIRFLOW_HOME}"
+export AIRFLOW__CORE__DAGS_FOLDER="${AIRFLOW__CORE__AIRFLOW_HOME}/dags"
+export AIRFLOW__CORE__SQL_ALCHEMY_CONN="sqlite:////Users/tangupta/airflow/airflow.db"
+export AIRFLOW__CORE__EXECUTOR="SequentialExecutor"
+export AIRFLOW__CORE__LOAD_EXAMPLES="True"
+export AIRFLOW_CONN_AIRFLOW_DB="sqlite:////Users/tangupta/airflow/airflow.db"
